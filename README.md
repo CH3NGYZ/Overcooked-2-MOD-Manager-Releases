@@ -218,6 +218,14 @@ install_target = ""
 
 单独发布 DLL 时，通常填写 `BepInEx/plugins`。不要填写绝对路径，也不要使用 `..` 跳出游戏目录。
 
+DLL、纯 DLL ZIP 和单个普通文件夹直接放入配置目录，保留 ZIP 内的普通文件夹名。例如 ZIP 只有 `OC2HostUtilities/` 文件夹，配置 `BepInEx/plugins` 后会得到 `BepInEx/plugins/OC2HostUtilities/`；不要在配置路径中再重复填写普通文件夹名。
+
+混合 ZIP (文件夹和文件混合的ZIP) 会在配置路径下创建压缩包同名目录（去除 `.zip`），再将所有文件和目录按原结构放进去。例如 `HostUtilities.zip` 内有 `OCHostUtilities` 文件夹、DLL 和 README，配置 `BepInEx/plugins` 后全部放入 `BepInEx/plugins/HostUtilities/`。配置路径已指向同名包目录时 (`BepInEx/plugins/HostUtilities/`) 直接复用，避免多套一层。本地混合 ZIP 同样放入 `BepInEx/plugins/<ZIP 名称>/`。
+
+ZIP 顶层仅有 `BepInEx/` 或 `plugins/` 时，管理器会合并其内容并替换同名文件，保留其他文件。`BepInEx/` 格式可使用空路径；`plugins/` 格式通常应配置 `BepInEx`。空路径始终表示游戏根目录，因此 `plugins/` 格式配空路径会安装到游戏根目录的 `plugins/`。目标已包含特殊目录前缀时会去除重复前缀，缺失目录自动创建；特殊目录旁有 README 等条目时，按普通混合 ZIP 完整安装。
+
+在线重装或升级会先下载、校验新文件，再将旧安装清单对应的完整 MOD 包移入回收站（含禁用文件），最后安装新版。安装失败时尝试恢复旧包；其他包仍使用的共享文件不会移入回收站。
+
 ### 5. 填写本地 MOD 识别信息
 
 Release 与仓库文件两种模式都使用 GUID、DLL 的 `ProductName` 和 `OriginalFilename` 将本地 MOD 绑定到仓库，三项中任意一项匹配即可；填写版本号正则时，还需满足版本条件。建议按实际 DLL 信息填写，不根据下载地址猜测：
