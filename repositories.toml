@@ -3,24 +3,24 @@
 # [[repository_sources]] 的顺序决定源在管理器中的展示顺序。
 [[repository_sources]]
 id = "repositories-azhe-hostutilities"
-nickname = "阿哲 - 街机MOD"
+nickname = "阿哲 - 街机MOD - 小红书 @Azhe是阿哲 - ID:5566308341"
 url = "repositories-azhe-hostutilities.toml"
 [repository_sources.nickname_i18n]
-zh-CN = "阿哲 - 街机MOD"
-zh-TW = "阿哲 - 街機MOD"
-en = "Azhe - HostUtilities MOD"
-ko = "Azhe - 아케이드 MOD"
+zh-CN = "阿哲 - 街机MOD - 小红书 @Azhe是阿哲 - ID:5566308341"
+zh-TW = "阿哲 - 街機MOD - 小红书 @Azhe是阿哲 - ID:5566308341"
+en = "Azhe - HostUtilities MOD - RedNote @Azhe是阿哲 - ID:5566308341"
+ko = "Azhe - 아케이드 MOD - RedNote @Azhe是阿哲 - ID:5566308341"
 
 
 [[repository_sources]]
 id = "repositories-azhe-others"
-nickname = "阿哲 - 其他MOD"
+nickname = "阿哲 - 其他MOD - 小红书 @Azhe是阿哲 - ID:5566308341"
 url = "repositories-azhe-others.toml"
 [repository_sources.nickname_i18n]
-zh-CN = "阿哲 - 其他MOD"
-zh-TW = "阿哲 - 其他MOD"
-en = "Azhe - Others MOD"
-ko = "Azhe - 기타 MOD"
+zh-CN = "阿哲 - 其他MOD - 小红书 @Azhe是阿哲 - ID:5566308341"
+zh-TW = "阿哲 - 其他MOD - 小红书 @Azhe是阿哲 - ID:5566308341"
+en = "Azhe - Others MOD - RedNote @Azhe是阿哲 - ID:5566308341"
+ko = "Azhe - 기타 MOD - RedNote @Azhe是阿哲 - ID:5566308341"
 
 
 [[repository_sources]]
@@ -36,24 +36,24 @@ ko = "G_U_A"
 
 [[repository_sources]]
 id = "repositories-kfyangc"
-nickname = "kfyangc"
+nickname = "小红书 @漆雕帆船 - ID:5669571205"
 url = "repositories-kfyangc.toml"
 [repository_sources.nickname_i18n]
-zh-CN = "kfyangc"
-zh-TW = "kfyangc"
-en = "kfyangc"
-ko = "kfyangc"
+zh-CN = "小红书 @漆雕帆船 - ID:5669571205"
+zh-TW = "小红书 @漆雕帆船 - ID:5669571205"
+en = "RedNote @漆雕帆船 - ID:5669571205"
+ko = "RedNote @漆雕帆船 - ID:5669571205"
 
 
 [[repository_sources]]
 id = "repositories-foamp"
-nickname = "小红书 @纸沫"
+nickname = "小红书 @纸沫 - ID:5696399896"
 url = "repositories-foamp.toml"
 [repository_sources.nickname_i18n]
-zh-CN = "小红书 @纸沫"
-zh-TW = "小红书 @纸沫"
-en = "rednote @纸沫"
-ko = "rednote @纸沫"
+zh-CN = "小红书 @纸沫 - ID:5696399896"
+zh-TW = "小红书 @纸沫 - ID:5696399896"
+en = "RedNote @纸沫 - ID:5696399896"
+ko = "RedNote @纸沫 - ID:5696399896"
 
 
 # 代理源索引
