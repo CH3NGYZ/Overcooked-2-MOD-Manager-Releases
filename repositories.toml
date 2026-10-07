@@ -45,6 +45,17 @@ en = "kfyangc"
 ko = "kfyangc"
 
 
+[[repository_sources]]
+id = "repositories-foamp"
+nickname = "小红书 @纸沫"
+url = "repositories-foamp.toml"
+[repository_sources.nickname_i18n]
+zh-CN = "小红书 @纸沫"
+zh-TW = "小红书 @纸沫"
+en = "rednote @纸沫"
+ko = "rednote @纸沫"
+
+
 # 代理源索引
 [[github_proxy_sources]]
 url = "repositories-proxies.toml"
