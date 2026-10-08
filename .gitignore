@@ -7,6 +7,12 @@ bin-release/
 # Other files and folders
 .settings/
 
+# Local agent instructions and task records
+AGENTS.md
+GOAL.md
+GOAD.md
+.validation/
+
 # Executables
 *.swf
 *.air

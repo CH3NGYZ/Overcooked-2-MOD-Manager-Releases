@@ -198,3 +198,70 @@ MOD功能：
 
 啟用方法：
 安裝《BepInEx設定管理器》後，在遊戲中開啟設定管理器，啟用對應的選項即可。"""
+
+[[repositories]]
+# 仓库基本信息
+name = "DIYLevel 关卡排序"
+name_i18n.en = "DIYLevel Level Sorting"
+name_i18n.ko = "DIYLevel 레벨 정렬"
+name_i18n.zh-CN = "DIYLevel 关卡排序"
+name_i18n.zh-TW = "DIYLevel 關卡排序"
+provider = "github"
+group = "实用工具"
+group_i18n.en = "Utility Tools"
+group_i18n.ko = "유틸리티 도구"
+group_i18n.zh-CN = "实用工具"
+group_i18n.zh-TW = "實用工具"
+region = ""
+username = "CH3NGYZ"
+repository = "Overcooked-2-DIYLevelSorting"
+enabled = true
+
+# 下载方式
+download_mode = "release"
+
+# Release 参数
+channel = "all"
+max_release_count = 10
+download_threads = 1
+
+# 版本资产规则
+asset_rules = [
+  { type = "exact", value = "OC2DIYLevelSorting.dll" },
+]
+
+# 本地 MOD 识别绑定
+plugin_guid = "com.ch3ngyz.plugin.diylevel.sorting"
+local_product_name = ""
+local_original_filename = "OC2DIYLevelSorting.dll"
+version_regex = ""
+
+# 安装目录
+install_target = "BepInEx/plugins"
+
+# 仓库备注
+note = """
+1. 退出自定义关卡后，自动回到上次的选关界面，方便继续选择其他关卡。
+2. 在上次选择的关卡及其所属关卡包前显示绿点，方便快速找到。
+3. 关卡列表支持按名称或文件修改时间排序，可自由切换正序和倒序。
+"""
+note_i18n.en = """
+1. After exiting a custom level, automatically return to the previous level selection screen to keep choosing levels.
+2. Show a green dot beside the last selected level and its level pack so they are easy to find.
+3. Sort the level list by name or file modification time, in ascending or descending order.
+"""
+note_i18n.ko = """
+1. 사용자 지정 레벨에서 나가면 이전 레벨 선택 화면으로 자동으로 돌아가 다른 레벨을 계속 선택할 수 있습니다.
+2. 마지막으로 선택한 레벨과 해당 레벨 팩 앞에 초록색 점을 표시해 쉽게 찾을 수 있습니다.
+3. 레벨 목록을 이름 또는 파일 수정 시간으로 정렬하고, 오름차순과 내림차순을 자유롭게 전환할 수 있습니다.
+"""
+note_i18n.zh-CN = """
+1. 退出自定义关卡后，自动回到上次的选关界面，方便继续选择其他关卡。
+2. 在上次选择的关卡及其所属关卡包前显示绿点，方便快速找到。
+3. 关卡列表支持按名称或文件修改时间排序，可自由切换正序和倒序。
+"""
+note_i18n.zh-TW = """
+1. 退出自訂關卡後，自動回到上次的選關畫面，方便繼續選擇其他關卡。
+2. 在上次選擇的關卡及其所屬關卡包前顯示綠點，方便快速找到。
+3. 關卡列表支援依名稱或檔案修改時間排序，可自由切換正序和倒序。
+"""
