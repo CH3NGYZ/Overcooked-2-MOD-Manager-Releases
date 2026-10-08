@@ -241,27 +241,42 @@ install_target = "BepInEx/plugins"
 
 # 仓库备注
 note = """
-1. 退出自定义关卡后，自动回到上次的选关界面，方便继续选择其他关卡。
-2. 在上次选择的关卡及其所属关卡包前显示绿点，方便快速找到。
-3. 关卡列表支持按名称或文件修改时间排序，可自由切换正序和倒序。
+1. 退出自定义关卡后，自动回到上次的选关界面，方便连续游玩。
+2. 在最近选择的关卡及其所属关卡包前显示绿点，重启游戏后仍会保留。
+3. 关卡列表可按名称或文件修改时间排序，支持正序和倒序。
+4. 关卡和关卡包均可置顶或取消置顶，置顶项不参与排序；使用 FastInit 时排在刷新按钮下方。
+
+需安装 BepInEx 5 和 OC2DIYLevel，兼容 DIYLevelFastInit。
 """
 note_i18n.en = """
-1. After exiting a custom level, automatically return to the previous level selection screen to keep choosing levels.
-2. Show a green dot beside the last selected level and its level pack so they are easy to find.
-3. Sort the level list by name or file modification time, in ascending or descending order.
+1. Automatically return to the previous level selection screen after exiting a custom level, ready to keep playing.
+2. Mark the last selected level and its pack with green dots, which remain after restarting the game.
+3. Sort levels by name or file modification time, in ascending or descending order.
+4. Pin or unpin levels and packs. Pinned entries stay at the top and are excluded from sorting; with FastInit, they appear below the refresh button.
+
+Requires BepInEx 5 and OC2DIYLevel. Compatible with DIYLevelFastInit.
 """
 note_i18n.ko = """
-1. 사용자 지정 레벨에서 나가면 이전 레벨 선택 화면으로 자동으로 돌아가 다른 레벨을 계속 선택할 수 있습니다.
-2. 마지막으로 선택한 레벨과 해당 레벨 팩 앞에 초록색 점을 표시해 쉽게 찾을 수 있습니다.
-3. 레벨 목록을 이름 또는 파일 수정 시간으로 정렬하고, 오름차순과 내림차순을 자유롭게 전환할 수 있습니다.
+1. 사용자 지정 레벨에서 나가면 이전 레벨 선택 화면으로 자동으로 돌아가 계속 플레이할 수 있습니다.
+2. 마지막으로 선택한 레벨과 해당 레벨 팩 앞에 초록색 점을 표시하며, 게임을 다시 시작해도 표시가 유지됩니다.
+3. 레벨 목록을 이름 또는 파일 수정 시간에 따라 오름차순이나 내림차순으로 정렬할 수 있습니다.
+4. 레벨과 레벨 팩을 상단에 고정하거나 해제할 수 있습니다. 고정된 항목은 정렬에서 제외되며, FastInit 사용 시 새로고침 버튼 아래에 표시됩니다.
+
+BepInEx 5와 OC2DIYLevel이 필요하며, DIYLevelFastInit과 호환됩니다.
 """
 note_i18n.zh-CN = """
-1. 退出自定义关卡后，自动回到上次的选关界面，方便继续选择其他关卡。
-2. 在上次选择的关卡及其所属关卡包前显示绿点，方便快速找到。
-3. 关卡列表支持按名称或文件修改时间排序，可自由切换正序和倒序。
+1. 退出自定义关卡后，自动回到上次的选关界面，方便连续游玩。
+2. 在最近选择的关卡及其所属关卡包前显示绿点，重启游戏后仍会保留。
+3. 关卡列表可按名称或文件修改时间排序，支持正序和倒序。
+4. 关卡和关卡包均可置顶或取消置顶，置顶项不参与排序；使用 FastInit 时排在刷新按钮下方。
+
+需安装 BepInEx 5 和 OC2DIYLevel，兼容 DIYLevelFastInit。
 """
 note_i18n.zh-TW = """
-1. 退出自訂關卡後，自動回到上次的選關畫面，方便繼續選擇其他關卡。
-2. 在上次選擇的關卡及其所屬關卡包前顯示綠點，方便快速找到。
-3. 關卡列表支援依名稱或檔案修改時間排序，可自由切換正序和倒序。
+1. 退出自訂關卡後，自動回到上次的選關畫面，方便連續遊玩。
+2. 在最近選擇的關卡及其所屬關卡包前顯示綠點，重新啟動遊戲後仍會保留。
+3. 關卡列表可依名稱或檔案修改時間排序，支援正序和倒序。
+4. 關卡和關卡包均可置頂或取消置頂，置頂項目不參與排序；使用 FastInit 時排列在重新整理按鈕下方。
+
+需安裝 BepInEx 5 和 OC2DIYLevel，相容於 DIYLevelFastInit。
 """
