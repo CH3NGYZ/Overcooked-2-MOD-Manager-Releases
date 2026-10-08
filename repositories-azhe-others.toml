@@ -201,11 +201,11 @@ MOD功能：
 
 [[repositories]]
 # 仓库基本信息
-name = "DIYLevel 关卡排序"
-name_i18n.en = "DIYLevel Level Sorting"
-name_i18n.ko = "DIYLevel 레벨 정렬"
-name_i18n.zh-CN = "DIYLevel 关卡排序"
-name_i18n.zh-TW = "DIYLevel 關卡排序"
+name = "DIYLevel 体验优化"
+name_i18n.en = "DIYLevel Experience Improvements"
+name_i18n.ko = "DIYLevel 플레이 경험 개선"
+name_i18n.zh-CN = "DIYLevel 体验优化"
+name_i18n.zh-TW = "DIYLevel 體驗優化"
 provider = "github"
 group = "实用工具"
 group_i18n.en = "Utility Tools"
