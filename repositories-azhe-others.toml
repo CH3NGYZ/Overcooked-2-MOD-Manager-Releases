@@ -280,3 +280,75 @@ note_i18n.zh-TW = """
 
 需安裝 BepInEx 5 和 OC2DIYLevel，相容於 DIYLevelFastInit。
 """
+
+[[repositories]]
+# 仓库基本信息
+name = "跳过启动片头 / SkipLoading"
+name_i18n.en = "Skip Startup Intro"
+name_i18n.ko = "시작 인트로 건너뛰기"
+name_i18n.zh-CN = "跳过启动片头"
+name_i18n.zh-TW = "跳過啟動片頭"
+provider = "gitee"
+group = "实用工具"
+group_i18n.en = "Utility Tools"
+group_i18n.ko = "유틸리티 도구"
+group_i18n.zh-CN = "实用工具"
+group_i18n.zh-TW = "實用工具"
+region = ""
+username = "ch3ngyz"
+repository = "Overcooked-2-SkipLoading"
+enabled = true
+
+# 下载方式
+download_mode = "release"
+
+# 当前 Release：v1.0.0；后续版本由管理器自动读取。
+channel = "all"
+max_release_count = 10
+download_threads = 1
+
+# 版本资产规则
+asset_rules = [
+  { type = "exact", value = "OC2SkipLoading.dll" },
+]
+
+# 本地 MOD 识别绑定
+plugin_guid = "com.ch3ngyz.plugin.skiploading"
+local_product_name = ""
+local_original_filename = "OC2SkipLoading.dll"
+version_regex = ""
+
+# 安装目录
+install_target = "BepInEx/plugins"
+
+# 仓库备注
+note = """
+自动跳过游戏启动时的品牌片头，资源加载完成后直接进入餐车等待画面。
+仍需按空格或手柄 A 继续，保留原版存档加载和厨房过场。
+
+需安装 BepInEx 5，安装后自动生效，无需配置。
+"""
+note_i18n.en = """
+Automatically skip the startup brand intro and enter the food truck wait screen once resources finish loading.
+Press Space or controller A to continue. The original save loading and kitchen cutscenes are preserved.
+
+Requires BepInEx 5. Enabled automatically after installation; no configuration needed.
+"""
+note_i18n.ko = """
+게임 시작 시 브랜드 인트로를 자동으로 건너뛰고, 리소스 로딩이 끝나면 푸드 트럭 대기 화면으로 바로 이동합니다.
+계속하려면 스페이스바 또는 컨트롤러 A 버튼을 눌러야 하며, 기존 저장 데이터 로딩과 주방 연출은 유지됩니다.
+
+BepInEx 5가 필요합니다. 설치 후 자동으로 적용되며 별도 설정은 필요하지 않습니다.
+"""
+note_i18n.zh-CN = """
+自动跳过游戏启动时的品牌片头，资源加载完成后直接进入餐车等待画面。
+仍需按空格或手柄 A 继续，保留原版存档加载和厨房过场。
+
+需安装 BepInEx 5，安装后自动生效，无需配置。
+"""
+note_i18n.zh-TW = """
+自動跳過遊戲啟動時的品牌片頭，資源載入完成後直接進入餐車等待畫面。
+仍需按空白鍵或手把 A 繼續，保留原版存檔載入和廚房過場。
+
+需安裝 BepInEx 5，安裝後自動生效，無需設定。
+"""
