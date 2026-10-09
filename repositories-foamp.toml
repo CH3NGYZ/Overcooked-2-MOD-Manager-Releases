@@ -26,6 +26,7 @@ download_threads = 32
 # 版本资产规则
 asset_rules = [
   { type = "regex", value = '^Overcooked2RecipeViewer-v\d+\.\d+\.\d+\.zip$' },
+  { type = "exact", value = 'Overcooked2RecipeViewer.dll' },
 ]
 
 # 本地 MOD 识别绑定
