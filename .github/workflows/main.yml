@@ -39,7 +39,7 @@ jobs:
             --gitee-token $env:gitee_token `
             --gitee-branch main `
             --github-latest-release-count 30 `
-            --gitee-retain-release-attach-files-count 10 `
+            --gitee-retain-release-attach-files-count 1 `
             --release-body-url-replace `
             --latest-json-url-replace `
             -v
